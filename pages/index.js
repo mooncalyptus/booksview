@@ -8,7 +8,7 @@ export default function Home() {
         <title>Homepage</title>
       </Head>
 
-      <main className="bg-[#F5EBEB]">
+      <main className="bg-[#F5EBEB] divide-y divide-black">
         {/* Navbar */}
         <div className="navbar bg-[#F5EBEB]">
           <div className="navbar-start">
@@ -85,9 +85,9 @@ export default function Home() {
         {/* Section body */}
         <section>
         <Image
-        src="/images/meja.png"
-        width={500}
-        height={500}
+        src="/images/books.png"
+        width={300}
+        height={300}
         alt="Picture of the author"
       />
         </section>
