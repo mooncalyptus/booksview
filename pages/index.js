@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -82,7 +83,14 @@ export default function Home() {
         </div>
 
         {/* Section body */}
-        <section></section>
+        <section>
+        <Image
+        src="/images/meja.png"
+        width={500}
+        height={500}
+        alt="Picture of the author"
+      />
+        </section>
       </main>
     </div>
   );
